@@ -5,7 +5,7 @@ h1{
   margin-top: 5px;
 }
 .container{
-  text-align: center;
+  ;
 }
 #addressbook{
   display: none;
@@ -16,10 +16,10 @@ h1{
  
 }
 #number{
-  text-align: center;
+  ;
 }
 #addressbook{
   padding-top: 30px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
