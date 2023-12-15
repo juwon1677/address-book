@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,9 @@
   <script src="js/script.js"></script>
   <title>Address Book</title>
 </head>
+
 <body>
+  <div id="disp">
   <div class="container">
     <h1>ADDRESS BOOK</h1>
     <form id="formOne">
@@ -30,18 +33,21 @@
       <input type="number" id="number">
       <br><br>
       <button type="submit">Submit</button>
-      <div id="addressbook">
-        <div class="card"></div>
-        <span class="name">Name</span>
-        <br><br>
-        <span class="lastname">Last Name</span>
-        <br><br>
-        <span class="address"></span>
-        <br><br>
-        <span class="number"></span>
-      </div>
-      </div>
-      
-      
+    </form>
+  </div>
+  <div id="addressbook">
+    <div class="card">
+      <span class="name">Name</span>
+      <br><br>
+      <span class="lastname">Last Name</span>
+      <br><br>
+      <span class="address">Address</span>
+      <br><br>
+      <span class="number">Phone Number</span>
+    </div>
+  </div>
+</div>
+
 </body>
+
 </html>
